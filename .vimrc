@@ -4,6 +4,8 @@
 " 
 " Starting from https://github.com/amix/vimrc/blob/master/vimrcs/basic.vim
 
+source .vim/vundle_module
+
 " Auto read files changed externally
 set autoread
 
