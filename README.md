@@ -6,4 +6,6 @@ This project is to keep track of an example vim settings file that has been opti
 Usage
 =====
 
-iSimply compy this vimrc file to your home dir
+Simply copy this vimrc file to your home dir
+
+To install packages run :PluginInstall in vim
