@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/home/sebarton/Workspace/sapphire/production/sw/nestlabs/flintstone/detectors/src/hosted/flintstone'
+let g:netrw_dirhist_2='/home/sebarton/Workspace/sapphire/production/sw/nestlabs/flintstone/detectors/include'
+let g:netrw_dirhist_3='/home/sebarton/Workspace/sapphire/production/sw/nestlabs/unit-test/test_longtimer'
