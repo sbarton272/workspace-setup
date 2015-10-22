@@ -15,9 +15,9 @@ Plugin 'VundleVim/Vundle.vim'
 
 " Solarized scheme
 Plugin 'altercation/vim-colors-solarized'
-syntax enable
-set background=light
-colorscheme solarized
+
+" Monokai
+Plugin 'sickill/vim-monokai'
 
 " Searching
 " https://github.com/rking/ag.vim

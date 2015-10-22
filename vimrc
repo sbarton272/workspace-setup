@@ -18,6 +18,14 @@ set autoread
 " Setup backspace correctly
 set backspace=eol,start,indent
 
+" Colors
+syntax enable
+if has('gui_running')
+  set background=dark
+  colorscheme solarized
+else
+  colorscheme monokai
+endif
 
 " Search settings
 set incsearch
