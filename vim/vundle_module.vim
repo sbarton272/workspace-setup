@@ -13,9 +13,11 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 
-" Syntax highlighting
-" https://github.com/sickill/vim-monokai
-Plugin 'sickill/vim-monokai'
+" Solarized scheme
+Plugin 'altercation/vim-colors-solarized'
+syntax enable
+set background=light
+colorscheme solarized
 
 " Searching
 " https://github.com/rking/ag.vim
@@ -29,10 +31,6 @@ Plugin 'kien/ctrlp.vim'
 let g:ctrlp_max_depth = 40
 let g:ctrlp_max_files = 0
 
-let g:ctrlp_custom_ignore = {
-  \ 'dir':  'results\|u\-boot\|tps\|poky\|\v[\/]\.(git|hg|svn)$',
-  \ 'file': '\v\.(exe|so|dll)$',
-  \ }
 
 " Switch to header
 Plugin 'derekwyatt/vim-fswitch'

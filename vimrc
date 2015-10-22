@@ -24,8 +24,6 @@ set incsearch
 set hlsearch
 
 filetype plugin indent on
-syntax on
-colorscheme monokai
 
 " Disable backups
 set nobackup
