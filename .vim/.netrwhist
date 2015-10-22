@@ -1,6 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
-let g:netrw_dirhist_1='/home/sebarton/Workspace/sapphire/production/build'
-let g:netrw_dirhist_2='/home/sebarton/Workspace/sapphire/production/sw/nestlabs/flintstone'
-let g:netrw_dirhist_3='/home/sebarton/.emacs.d'
-let g:netrw_dirhist_4='/home/sebarton/Workspace/sapphire/production/sw/nestlabs/flintstone'
