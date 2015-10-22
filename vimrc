@@ -17,7 +17,7 @@ set autoread
 
 " Setup backspace correctly
 set backspace=eol,start,indent
-set whichwrap+=<,>,h,l
+
 
 " Search settings
 set incsearch

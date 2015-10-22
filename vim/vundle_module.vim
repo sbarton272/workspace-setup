@@ -27,7 +27,7 @@ Plugin 'octol/vim-cpp-enhanced-highlight'
 " fuzzy search
 Plugin 'kien/ctrlp.vim'
 let g:ctrlp_max_depth = 40
-let g:ctrlp_max_files = 0 
+let g:ctrlp_max_files = 0
 
 let g:ctrlp_custom_ignore = {
   \ 'dir':  'results\|u\-boot\|tps\|poky\|\v[\/]\.(git|hg|svn)$',
@@ -56,8 +56,8 @@ Plugin 'ntpeters/vim-better-whitespace'
 autocmd FileType javascript,c,cpp,java,html,ruby,python autocmd BufWritePre <buffer> StripWhitespace
 
 " Project Specific vimrc
-" Plugin 'LucHermitte/lh-vim-lib'
-" Plugin 'LucHermitte/local_vimrc'
+Plugin 'LucHermitte/lh-vim-lib'
+Plugin 'LucHermitte/local_vimrc'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
