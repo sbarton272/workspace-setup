@@ -8,7 +8,7 @@ This relies on the vudle plugin manager
 Usage
 =====
 
-Simply copy this vimrc file to your home dir
-
-To install packages run :PluginInstall in vim
+1. copy this vimrc file to your home dir
+2. Install vundle: git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+3. Install packages run :PluginInstall in vim
 
