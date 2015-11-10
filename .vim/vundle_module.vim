@@ -56,9 +56,6 @@ Plugin 'LucHermitte/local_vimrc'
 " Tab completion
 Plugin 'ervandew/supertab'
 
-" Status line
-Plugin 'itchyny/lightline'
-
 " Git gutter
 Plugin 'airblade/vim-gitgutter'
 

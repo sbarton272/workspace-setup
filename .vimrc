@@ -1,5 +1,7 @@
 " Basic vimrc
 "
+" Author sebarton@google.com
+"
 " Starting from https://github.com/amix/vimrc/blob/master/vimrcs/basic.vim
 
 " Leader, note needs to be before plugins are loaded
@@ -17,8 +19,15 @@ nnoremap Q <nop>
 " Linenumbers
 set number
 
+" Jump to matching brace
+nnoremap % %v
+
 " Auto read files changed externally
 set autoread
+
+" Always on status line
+set laststatus=2
+set statusline=%f "tail of the filename
 
 " Setup backspace correctly
 set backspace=eol,start,indent
@@ -26,7 +35,7 @@ set backspace=eol,start,indent
 " Colors
 syntax enable
 if has('gui_running')
-  set background=dark
+  set background=light
   colorscheme solarized
 else
   colorscheme monokai
@@ -55,6 +64,12 @@ set si
 
 " Wrap lines
 set wrap
+
+" Reload support
+augroup reload_vimrc
+    autocmd!
+    autocmd bufwritepost $MYVIMRC nested source $MYVIMRC
+augroup END
 
 " Font settings
 if has('gui_running')
