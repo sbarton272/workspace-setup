@@ -41,6 +41,7 @@ Plugin 'terryma/vim-multiple-cursors'
 " Buffer navigation
 Plugin 'jlanzarotta/bufexplorer'
 noremap <Leader>b :BufExplorer<CR>
+noremap <Leader>v :BufExplorerVerticalSplit<CR>
 
 " Rename a file with :Rename
 Plugin 'Rename'
@@ -58,6 +59,16 @@ Plugin 'ervandew/supertab'
 
 " Git gutter
 Plugin 'airblade/vim-gitgutter'
+
+" Git commands
+Plugin 'tpope/vim-fugitive'
+
+" CamelCaseMovement
+Plugin 'bkad/CamelCaseMotion'
+map <silent> w <Plug>CamelCaseMotion_w
+map <silent> b <Plug>CamelCaseMotion_b
+sunmap w
+sunmap b
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required

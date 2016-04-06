@@ -55,8 +55,8 @@ set noswapfile
 " Tab settings
 set expandtab
 set smarttab
-set shiftwidth=4
-set tabstop=4
+set shiftwidth=2
+set tabstop=2
 
 " Auto-indent, smart-indent
 set ai
@@ -75,8 +75,8 @@ augroup END
 if has('gui_running')
   set guioptions=aem  " simple gui
   if has('gui_win32')
-    set guifont=DejaVu_Sans_Mono:h8:cANSI
+    set guifont=DejaVu_Sans_Mono:h6:cANSI
   else
-    set guifont=DejaVu\ Sans\ Mono\ 8
+    set guifont=DejaVu\ Sans\ Mono\ 6
   endif
 endif
