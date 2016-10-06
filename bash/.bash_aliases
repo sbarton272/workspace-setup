@@ -16,9 +16,10 @@ alias la='ls -A'
 alias l='ls -CF'
 
 # Git
-alias gitb='git branch'
-alias gits='git status'
-alias gitl='git log --pretty=format:"%h - %an, %ar : %s"'
+alias g='git'
+alias gb='git branch'
+alias gs='git status'
+alias gl='git log --pretty=format:"%h - %an, %ar : %s"'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
@@ -26,8 +27,3 @@ alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo
 
 # Python related aliases
 alias svenv='source venv/bin/activate'
-
-# Workspaces
-alias cdw='cd ~/Workspace'
-alias cdml='cd ~/Workspace/Branch_Python_ML/; svenv;'
-
