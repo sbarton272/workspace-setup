@@ -17,9 +17,6 @@ alias l='ls -CF'
 
 # Git
 alias g='git'
-alias gb='git branch'
-alias gs='git status'
-alias gl='git log --pretty=format:"%h - %an, %ar : %s"'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert

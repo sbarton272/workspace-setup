@@ -1,0 +1,14 @@
+[user]
+	name = Spencer Barton
+	email = sbarton272@gmail.com
+[push]
+	default = simple
+[core]
+  editor = vim
+[alias]
+  c = commit -m
+  s = status
+  l = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+  b = branch
+  a = add
+  d = diff
