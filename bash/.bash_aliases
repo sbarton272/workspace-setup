@@ -24,3 +24,7 @@ alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo
 
 # Python related aliases
 alias svenv='source venv/bin/activate'
+
+# Useful stuffs
+alias pyserv='python -m http.server'
+alias pypp='python -m json.tool'
