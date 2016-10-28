@@ -96,3 +96,7 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+# Python setup
+export PIP_DOWNLOAD_CACHE=$HOME/.pip/cache
+

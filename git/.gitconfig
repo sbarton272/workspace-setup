@@ -6,10 +6,12 @@
 [core]
   editor = vim
 [alias]
-  c = commit -m
+  c = commit -am
   ch = checkout
   s = status
-  l = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+  la = log --all --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+  lb = log development... --pretty=format:"%h %ad | %s%d [%an]" --date=short --stat
   b = branch
   a = add
   d = diff
+  r = rebase
