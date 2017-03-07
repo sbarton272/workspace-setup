@@ -104,6 +104,6 @@ fi
 # Python setup
 export PIP_DOWNLOAD_CACHE=$HOME/.pip/cache
 
-export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
-
+export PATH="$PATH:$HOME/.rvm/bin"  # Add RVM to PATH for scripting
+export PATH="$PATH:$HOME/.arc_install/arcanist/bin"  # Add arc to path
 
