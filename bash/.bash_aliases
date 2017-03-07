@@ -28,3 +28,10 @@ alias svenv='source venv/bin/activate'
 # Useful stuffs
 alias pyserv='python -m http.server'
 alias pypp='python -m json.tool'
+
+# Arc
+alias ab='arc branch'
+alias af='arc diff --skip-binaries'
+alias ao='arc diff --only --skip-binaries --skip-staging'
+alias al='arc land'
+
