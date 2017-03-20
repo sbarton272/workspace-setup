@@ -86,6 +86,10 @@ if [ -f ~/.git_complete ]; then
     . ~/.git_complete
 fi
 
+if [ -f `brew --prefix`/etc/bash_completion.d/rails.bash ]; then
+    source `brew --prefix`/etc/bash_completion.d/rails.bash
+fi
+
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
 # sources /etc/bash.bashrc).
@@ -99,4 +103,7 @@ fi
 
 # Python setup
 export PIP_DOWNLOAD_CACHE=$HOME/.pip/cache
+
+export PATH="$PATH:$HOME/.rvm/bin"  # Add RVM to PATH for scripting
+export PATH="$PATH:$HOME/.arc_install/arcanist/bin"  # Add arc to path
 

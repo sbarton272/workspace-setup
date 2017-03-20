@@ -28,12 +28,6 @@ alias pyserv3='python3 -m http.server'
 alias pyserv2='python -m SimpleHTTPServer'
 alias pypp='python -m json.tool'
 
-# Jupyter Notebooks
-alias jnt='jupyter notebook'
-alias nbsrv='jupyter notebook --port=8000 --no-browser --ip=0.0.0.0'
-
-# Arc
-source ~/.arc_install/arcanist/resources/shell/bash-completion
 alias ab='arc branch'
 alias af='arc diff --skip-binaries'
 alias ao='arc diff --only --skip-binaries --skip-staging'
