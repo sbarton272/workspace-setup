@@ -1,10 +1,11 @@
 [user]
-	name = Spencer Barton
-	email = sbarton272@gmail.com
+  name = Spencer Barton
+  email = sbarton272@gmail.com
 [push]
-	default = simple
+  default = simple
 [core]
   editor = vim
+  pager = less -F -X
 [alias]
   cm = commit
   cma = commit -am
