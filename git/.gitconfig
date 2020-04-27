@@ -24,5 +24,6 @@
   r = rebase
   rc = rebase --continue
   ps = push
+  psf = push --force
   pl = pull
   plr = pull --rebase
