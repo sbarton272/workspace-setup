@@ -24,12 +24,5 @@ alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo
 
 # Python related aliases
 alias svenv='source venv/bin/activate'
-alias pyserv3='python3 -m http.server'
-alias pyserv2='python -m SimpleHTTPServer'
+alias pyserv='python3 -m http.server'
 alias pypp='python -m json.tool'
-
-alias ab='arc branch'
-alias af='arc diff --skip-binaries'
-alias ao='arc diff --only --skip-binaries --skip-staging'
-alias al='arc land'
-
